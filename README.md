@@ -1,2 +1,20 @@
-# ME646-Turbulence_MLP_project
-This project was conducted as part of the ME 646: Introduction to Turbulence course taught by Prof. Vinod Narayan. In this project we basically were trying to predict the Strouhal Number as a function of the Aspect ratio, Reynolds number, Angle of attack of the elliptic cylinder. We trained a small MLP network for this purpose. 
+# ME646 Turbulence MLP Project
+
+This repository contains the code and data for the ME646 project, which involves using a Multi-Layer Perceptron (MLP) neural network to predict the Strouhal number for flow past an elliptic cylinder.
+
+## Project Overview
+
+The project aims to integrate Computational Fluid Dynamics (CFD) simulations with machine learning techniques to model and predict the Strouhal number based on various flow parameters such as aspect ratio, angle of attack, and Reynolds number.
+
+## Repository Structure
+
+- `CFD_Simulations/`: Contains the setup and results of the CFD simulations conducted using ANSYS Fluent.
+- `MLP_Model/`: Includes the Python scripts and datasets used to train and test the MLP neural network.
+- `Plots/`: Stores the plots generated for analysis and presentation purposes.
+- `README.md`: Provides an overview of the project and instructions for replication.
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/adityaprasad2005/ME646-Turbulence_MLP_project.git
